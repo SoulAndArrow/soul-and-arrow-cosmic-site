@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+}
+
+.hero {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('https://cdn.leonardo.ai/users/535872d6-f635-4bc6-b755-9336d1f0326c/generations/f2d94a2c-23b6-4f28-8589-51d4cbadd56b/AlbedoBase_XL_A_digital_illustration_of_an_enchanted_cosmic_tr_0.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
